@@ -3,12 +3,44 @@
 <head>  
     <title>시간표</title>
     <style>
-        
+        table{
+            text-align: center;
+            background-color: white;
+            color: black;
+        }
+        caption{
+            color: white;
+        }
+        #first{
+            background-color: rgb(245, 226, 210)
+        }
+        #math1{
+            background-color: rgb(255, 225, 225);
+        }
+        #math2{
+            background-color: rgb(255, 241, 225);
+        }
+        #computer{
+            background-color: rgb(238, 255, 205);
+        }
+        #eng1{
+            background-color: rgb(205, 255, 222);
+        }
+        #eng2{
+            background-color: rgb(205, 233, 255);
+        }
+        #write{
+            background-color: rgb(237, 205, 255);
+        }
+        #religion{
+            background-color: rgb(255, 205, 233);
+        }
     </style>
 </head>
 <body>
     <table border="1">
-        <tr>
+        <caption>시간표</caption>
+        <tr id="first">
             <td></td>
             <td>월</td>
             <td>화</td>
@@ -17,7 +49,7 @@
             <td>금</td>
         </tr>
         <tr>
-            <td>오전 9시</td>
+            <td id="first">오전 9시</td>
             <td></td>
             <td></td>
             <td></td>
@@ -25,51 +57,51 @@
             <td></td>
         </tr>
         <tr>
-            <td>오전 10시</td>
+            <td id="first">오전 10시</td>
             <td></td>
-            <td rowspan="2">객체지향 프로그래밍</td>
+            <td id="computer" rowspan="2">객체지향<br/>프로그래밍</td>
             <td></td>
-            <td rowspan="2">객체지향 프로그래밍</td>
-            <td></td>
-        </tr>
-        <tr>
-            <td>오전 11시</td>
-            <td rowspan="2">이산수학개론</td>
-            <td>이산수학개론</td>
+            <td id="computer" rowspan="2">객체지향<br/>프로그래밍</td>
             <td></td>
         </tr>
         <tr>
-            <td>오후 12시</td>
-            <td></td>
-            <td>채플</td>
-            <td></td>
-            <td></td>
-        </tr>
-        <tr>
-            <td>오후 1시</td>
-            <td rowspan="2">통계학개론</td>
-            <td>영어1</td>
-            <td>통계학개론</td>
-            <td>영어1</td>
+            <td id="first">오전 11시</td>
+            <td id="math1" rowspan="2">이산수학개론</td>
+            <td id="math1">이산수학개론</td>
             <td></td>
         </tr>
         <tr>
-            <td>오후 2시</td>
+            <td id="first">오후 12시</td>
             <td></td>
-            <td></td>
+            <td id="religion">채플</td>
             <td></td>
             <td></td>
         </tr>
         <tr>
-            <td>오후 3시</td>
-            <td>영어회화1</td>
-            <td rowspan="2">글쓰기</td>
-            <td>영어회화1</td>
-            <td>글쓰기</td>
+            <td id="first">오후 1시</td>
+            <td id="math2" rowspan="2">통계학개론</td>
+            <td id="eng1">영어1</td>
+            <td id="math2">통계학개론</td>
+            <td id="eng1">영어1</td>
             <td></td>
         </tr>
         <tr>
-            <td>오후 4시</td>
+            <td id="first">오후 2시</td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td id="first">오후 3시</td>
+            <td id="eng2">영어회화1</td>
+            <td id="write" rowspan="2">글쓰기</td>
+            <td id="eng2">영어회화1</td>
+            <td id="write">글쓰기</td>
+            <td></td>
+        </tr>
+        <tr>
+            <td id="first">오후 4시</td>
             <td></td>
             <td></td>
             <td></td>
