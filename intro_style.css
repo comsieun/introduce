@@ -1,6 +1,21 @@
-#center{
-    text-align: center;
-}
 body{
-    font-family: 'Nanum Myeongjo', serif;
+    font-family: 'Hahmlet', serif;
+    background-color: rgb(205, 227, 245);
+}
+div{
+    display: flex;
+    justify-content:centers;
+    left: 13cm;
+}
+#menu{
+    text-align: center;
+    color: rgb(255, 255, 255);
+    width:900px;
+    position: relative;
+    background-color: rgb(233, 147, 180);
+}
+#white{
+    position: relative;
+    width:900px;
+    background-color: rgb(255, 255, 255);
 }

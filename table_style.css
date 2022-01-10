@@ -4,7 +4,7 @@ table{
     color: black;
 }
 caption{
-    color: white;
+    color: rgb(0, 0, 0);
 }
 #first{
     background-color: rgb(245, 226, 210)
