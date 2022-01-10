@@ -1,0 +1,32 @@
+table{
+    text-align: center;
+    background-color: white;
+    color: black;
+}
+caption{
+    color: white;
+}
+#first{
+    background-color: rgb(245, 226, 210)
+}
+#math1{
+    background-color: rgb(255, 225, 225);
+}
+#math2{
+    background-color: rgb(255, 241, 225);
+}
+#computer{
+    background-color: rgb(238, 255, 205);
+}
+#eng1{
+    background-color: rgb(205, 255, 222);
+}
+#eng2{
+    background-color: rgb(205, 233, 255);
+}
+#write{
+    background-color: rgb(237, 205, 255);
+}
+#religion{
+    background-color: rgb(255, 205, 233);
+}
