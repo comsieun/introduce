@@ -40,33 +40,26 @@
         <li>저를 평가해주세요!</li>
         <ul>
             <br/><li>개발 능력</li>
-            <label for="one">1</label>
-            <input id="one" type="radio" name="develop" />
-            <label for="two">2</label>
-            <input id="two" type="radio" name="develop" />
-            <label for="three">3</label>
-            <input id="three" type="radio" name="develop" />
-            <label for="four">4</label>
-            <input id="four" type="radio" name="develop" />
-            <label for="five">5</label>
-            <input id="five" type="radio" name="develop" />
+            <input type="radio" id="del" value = "bad" name = "develop" onclick="develop()">1
+            <input type="radio" id="del" value = "bad" name = "develop" onclick="develop()">2
+            <input type="radio" id="del" value = "good" name = "develop" onclick="develop()">3
+            <input type="radio" id="del" value = "good" name = "develop" onclick="develop()">4
+            <input type="radio" id="del" value = "good" name = "develop" onclick="develop()">5
 
             <br/><br/><li>커뮤니케이션 능력</li>
-            <label for="one">1</label>
-            <input id="one" type="radio" name="community" />
-            <label for="two">2</label>
-            <input id="two" type="radio" name="community" />
-            <label for="three">3</label>
-            <input id="three" type="radio" name="community" />
-            <label for="four">4</label>
-            <input id="four" type="radio" name="community" />
-            <label for="five">5</label>
-            <input id="five" type="radio" name="community" />
-            <br/><br/><li>추가 의견: <input type="text" />
-            <button>확인</button>
+            <input type="radio" id="cmu" value = "bad" name = "community" onclick="community()">1
+            <input type="radio" id="cmu" value = "bad" name = "community" onclick="community()">2
+            <input type="radio" id="cmu" value = "good" name = "community" onclick="community()">3
+            <input type="radio" id="cmu" value = "good" name = "community" onclick="community()">4
+            <input type="radio" id="cmu" value = "good" name = "community" onclick="community()">5
+
+            <br/><br/><li>추가 의견: <input type="text" id="cin">
+            <button id="button">제출</button>
+            <div id="message"></div>
             </li>
         </ul>
     </ol>
 </div>
+<script src="intro_javas.js"></script>
 </body>
 </html>
